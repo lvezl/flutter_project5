@@ -36,7 +36,7 @@ class _MyswiftState extends State<Myswift> {
             ListTile(
               title: Text("Home"),
               onTap: () {
-                Navigator.of(context).push(    //pushReplacement(
+                Navigator.of(context).push( 
                   MaterialPageRoute(
                     builder: (context) => const MyWidget(
                       parameter: "Mobile Legend",
@@ -78,8 +78,8 @@ class _MyswiftState extends State<Myswift> {
                   Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
                       builder: (context) => const MyWidget(
-                        parameter: "A",
-                        parameter2: "B",
+                        parameter: "Mobile Legend",
+                        parameter2: "AOV",
                       ),
                     ),
                   );
